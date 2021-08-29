@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="">
+  <meta name="robots" content="index, follow">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tallulah Carlisle | Freelance Website Developer</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+  <!-- CSS links -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <div class="hamburger-menu hoverable">
+    <span class="bar"></span>
+  </div>
+  <ul class="hamburger-list">
+    <li><a href="#about" class="hamburger-link lang-en">About</a><a href="#about" class="hamburger-link lang-es">Sobre mí</a><a href="#about" class="hamburger-link lang-ca">Sobre mi</a></li>
+    <li><a href="#skills" class="hamburger-link lang-en">Background</a><a href="#skills" class="hamburger-link lang-es">Formación</a><a href="#skills" class="hamburger-link lang-ca">Formació</a></li>
+    <li><a href="#projects" class="hamburger-link lang-en">Projects</a><a href="#projects" class="hamburger-link lang-es">Proyectos</a><a href="#projects" class="hamburger-link lang-ca">Projectes</a></li>
+    <li><a href="#contact" class="hamburger-link lang-en">Contact</a><a href="#contact" class="hamburger-link lang-es">Contacto</a><a href="#contact" class="hamburger-link lang-ca">Contacte</a></li>
+  </ul>
+  <div class="message bad">
+    <p>Sorry, you need a device with a bigger screen</p>
+  </div>
+  <div class="message rotate">
+    <p>Please rotate your device.</p>
+  </div>
+  <div class="loading"></div>
+  <!-- <div class="cursor"></div> -->
+  <canvas id="canvas"></canvas>
+
+  <div class="language-box">
+    <div class="language-active">
+      <p>EN</p>
+    </div>
+    <div class="language-select">
+      <i class="fas fa-sort-down"></i>
+    </div>
+    <div class="language-options">
+      <ul>
+        <li>
+          <p>EN</p>
+        </li>
+        <li>
+          <p>ES</p>
+        </li>
+        <li>
+          <p>CA</p>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class="side-nav">
+    <ul>
+      <li>
+        <div class="nav-item">
+          <div class="bullet" id="about-bullet">
+
+          </div>
+          <p class="lang-en">About</p>
+          <p class="lang-es">Sobre mí</p>
+          <p class="lang-ca">Sobre mi</p>
+        </div>
+      </li>
+      <li>
+        <div class="nav-item">
+          <div class="bullet" id="background-bullet">
+          </div>
+          <p class="lang-en">Background</p>
+          <p class="lang-es">Formación</p>
+          <p class="lang-ca">Formació</p>
+        </div>
+      </li>
+      <li>
+        <div class="nav-item">
+          <div class="bullet" id="projects-bullet">
+          </div>
+          <p class="lang-en">Projects</p>
+          <p class="lang-es">Proyectos</p>
+          <p class="lang-ca">Projectes</p>
+        </div>
+      </li>
+      <li>
+        <div class="nav-item">
+          <div class="bullet" id="contact-bullet">
+          </div>
+          <p class="lang-en">Contact</p>
+          <p class="lang-es">Contacto</p>
+          <p class="lang-ca">Contacte</p>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div class="scroll-content">
+    <div class="container">
+
+
+      <section class="hello">
+        <div class="intro">
+          <h1 class="lang-en">Hello, my name is Tallulah.</h1>
+          <h1 class="lang-es">Hola, mi nombre es Tallulah.</h1>
+          <h1 class="lang-ca">Hola, el meu nom es Tallulah.</h1>
+          <h1 class="char lang-en">I am a freelance website developer, passionate about smooth user experience and responsive website design.</h1>
+          <h1 class="char lang-es">Soy una desarolladora Full Stack, apasionada por las experiencias de usuario fluidas y por el diseño y el desarrollo adaptativo.<br></h1>
+          <h1 class="char lang-ca">Sóc una desenvolupadora Full Stack, apassionada per experiencies d'usuari fluides i pel disseny i el desenvolupament adaptatiu.<br></h1>
+        </div>
+      </section>
+      <section class="skills">
+        <div class="heading">
+          <h3 class="lang-en"><span class="char">K</span><span class="char">e</span><span class="char">y</span><span class="char new">S</span><span class="char">k</span><span class="char">i</span><span class="char">l</span><span
+              class="char">l</span><span class="char">s</span></h3>
+          <h3 class="lang-es"><span class="char">H</span><span class="char">a</span><span class="char">b</span><span class="char">i</span><span class="char">l</span><span class="char">i</span><span class="char">d</span><span
+              class="char">a</span><span class="char">d</span><span class="char">e</span><span class="char">s</span></h3>
+          <h3 class="lang-ca"><span class="char">H</span><span class="char">a</span><span class="char">b</span><span class="char">i</span><span class="char">l</span><span class="char">i</span><span class="char">t</span><span
+              class="char">a</span><span class="char">t</span><span class="char">s</span></h3>
+        </div>
+        <div class="content">
+          <div class="skill-list">
+            <ul class="wrapper" id="n01">
+              <div class="boxes">
+                <li>HTML5</li>
+                <li>React</li>
+                <li>Javascript</li>
+                <li>jQuery</li>
+                <li>Bootstrap</li>
+                <li>DevOps</li>
+              </div>
+            </ul>
+            <ul class="wrapper" id="n02">
+              <div class="boxes">
+                <li>Node.JS</li>
+                <li>IOS</li>
+                <li>Express.JS</li>
+                <li>Python</li>
+                <li>Webservices</li>
+                <li>CSS3</li>
+              </div>
+            </ul>
+            <ul class="wrapper" id="n03">
+              <div class="boxes">
+                <li>MySQL</li>
+                <li>RESTful</li>
+                <li>GIMP</li>
+                <li>no SQL</li>
+                <li>Github</li>
+                <li>Terminal</li>
+              </div>
+            </ul>
+            <ul class="wrapper" id="n04">
+              <div class="boxes">
+                <li>Photoshop</li>
+                <li>Three.js</li>
+                <li>MongoDB</li>
+                <li>GSAP</li>
+                <li>PostreSQL</li>
+                <li>Web APIs</li>
+              </div>
+            </ul>
+          </div>
+        </div>
+
+      </section>
+      <section class="projects">
+        <div class="heading">
+          <h3 class="lang-en"><span class="char">P</span><span class="char">r</span><span class="char">o</span><span class="char">j</span><span class="char">e</span><span class="char">c</span><span class="char">t</span><span class="char">s</span>
+            <h3 class="lang-es"><span class="char">P</span><span class="char">r</span><span class="char">o</span><span class="char">y</span><span class="char">e</span><span class="char">c</span><span class="char">t</span><span
+                class="char">o</span><span class="char">s</span></h3>
+            <h3 class="lang-ca"><span class="char">P</span><span class="char">r</span><span class="char">o</span><span class="char">j</span><span class="char">e</span><span class="char">c</span><span class="char">t</span><span
+                class="char">e</span><span class="char">s</span></h3>
+        </div>
+        <div class="content">
+          <div class="title">
+            <p class="lang-en first">To see some of my featured projects, click on the following titles to launch.. </p>
+            <p class="lang-es first">Para ver algunos de mis proyectos más recientes, haga clic en los siguientes títulos para iniciar..</p>
+            <p class="lang-ca first">Per veure alguns dels meus projectes més recents, feu clic als títols següents per llançar-los..</p>
+
+          </div>
+
+          <ul class="project-list">
+            <li>
+              <div class="birchwood" id="birchwood">
+                <div class="image" id="birchwood-img">
+                  <p class="image-title">Birchwood</p>
+                  <div class="overlay-container">
+                    <img src="images/birchwood.jpg" alt="birchwood">
+                    <p class="image-overlay">Birchwood</p>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="sailing" id="sailing">
+                <div class="image" id="sailing-img">
+                  <p class="image-title">Streets Florist</p>
+                  <div class="overlay-container">
+                    <img src="images/streets.png" alt="streets">
+                    <p class="image-overlay">Streets Florist</p>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="portfolio" id="portfolio">
+                <div class="image" id="portfolio-img">
+                  <p class="image-title">Portfolio</p>
+                  <div class="overlay-container">
+                    <img src="images/portfolio.png" alt="portfolio">
+                    <p class="image-overlay">Portfolio</p>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="arcade" id="arcade">
+                <div class="image" id="arcade-img">
+                  <p class="image-title">Arcade</p>
+                  <div class="overlay-container">
+                    <img src="images/arcade.png" alt="arcade">
+                    <p class="image-overlay">Arcade</p>
+                  </div>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="contact">
+        <div class="main">
+          <h2 class="lang-en">Interested in working on a project together?</h2>
+          <h2 class="lang-en">Please don't hestitate to get in touch.</h2>
+          <h2 class="lang-es">Te interesa trabajar juntos en un proyecto?</h2>
+          <h2 class="lang-es">Por favor, pónte en contacto conmigo.</h2>
+          <h2 class="lang-ca">T'interessa treballar junts en un projecte?</h2>
+          <h2 class="lang-ca">Si us plau, posa't en contacte amb mi.</h2>
+          <div class="email">
+            <a href="mailto:tallulah.carlisle@gmail.com?subject=Getting%20in%20Contact">
+              <h1 id="email">tallulah.carlisle@gmail.com</h1>
+            </a>
+          </div>
+        </div>
+      </section>
+      <section class="bottom">
+        <div class="title">
+          <p class="lang-en">If you prefer to see more of my projects, find and follow me on the following links</p>
+          <p class="lang-es">Si prefieres ver más proyectos mios, sigueme en los siguentes enlaces</p>
+          <p class="lang-ca">Si prefereixes veure mes projectes meus, segueix-me en els següents enllaços</p>
+          <div class="social-media">
+            <a href="https://www.github.com/tallulahh" class="social"><i class="fas fa-code-branch"></i></a>
+            <a href="https://www.codepen.io/tallulahh" class="social"><i class="fab fa-codepen"></i></a>
+            <a href="https://www.linkedin.com/in/tallulah-carlisle" class="social"><i class="fab fa-linkedin-in"></i></a>
+          </div>
+        </div>
+      </section>
+    </div>
+  </div>
+</body>
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/ScrollTrigger.min.js" charset="utf-8"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/ScrollToPlugin.min.js" charset="utf-8"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/TextPlugin.min.js" charset="utf-8"></script>
+<!-- <script src="https://cdn.rawgit.com/josephg/noisejs/master/perlin.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r124/three.js"></script>
+    <script src="https://82mou.github.io/threejs/js/OrbitControls.js"></script>
+    <script src="three.js" charset="utf-8" defer></script> -->
+<script src="index.js" charset="utf-8" defer></script>
+
+</html>
