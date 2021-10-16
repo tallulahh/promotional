@@ -477,9 +477,9 @@ $(".image p").click(
       item = $(this);
       window.open("https://www.streets-florist.co.uk");
     } else if ($(this).parents("div.portfolio").length) {
-      window.open("https://www.tallulahcarlisle.com");
+      window.open("https://tallulahh.github.io/portfolio");
     } else if ($(this).parents("div.birchwood").length) {
-      window.open("https://www.birchwoodgrp.co.uk/staging");
+      window.open("https://www.birchwoodgrp.co.uk");
     } else if ($(this).parents("div.arcade").length) {
       window.open("https://tallulahh.github.io/arcade/index.html");
     }
